@@ -1,0 +1,15 @@
+# 线上配置文件
+server:
+  port: 8111
+spring:
+  # 数据库配置
+  # todo 需替换配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://123.56.107.202:13306/yuoj
+    username: root
+    password: lzl420563
+mybatis-plus:
+  configuration:
+    # 生产环境关闭日志
+    log-impl: ''
