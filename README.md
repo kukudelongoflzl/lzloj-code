@@ -18,6 +18,8 @@
 ![image](https://github.com/kukudelongoflzl/lzloj-code/assets/145359909/0fb97205-365b-49cd-b60a-f6ae9bfce005)
 题目做题详情：
 ![image](https://github.com/kukudelongoflzl/lzloj-code/assets/145359909/fe28cecb-6b4a-4837-af56-81a45201b05a)
+个人主页：
+https://www.nwpu.edu.cn/
 
 
 
