@@ -1,9 +1,7 @@
 # 公共配置文件
-# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
-# @from <a href="https://yupi.icu">编程导航知识星球</a>
 spring:
   application:
-    name: springboot-init
+    name: lzloj-code
   # 默认 dev 环境
   profiles:
     active: dev
@@ -21,31 +19,15 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_db
+    url: jdbc:mysql://localhost:3306/lzloj
     username: root
-    password: 123456
-  # Redis 配置
-  # todo 需替换配置，然后取消注释
-#  redis:
-#    database: 1
-#    host: localhost
-#    port: 6379
-#    timeout: 5000
-#    password: 123456
-  # Elasticsearch 配置
-  # todo 需替换配置，然后取消注释
-#  elasticsearch:
-#    uris: http://localhost:9200
-#    username: root
-#    password: 123456
-  # 文件上传
+    password: 1234
   servlet:
     multipart:
       # 大小限制
       max-file-size: 10MB
 server:
-  address: 0.0.0.0
-  port: 8101
+  port: 8111
   servlet:
     context-path: /api
     # cookie 30 天过期
@@ -100,4 +82,8 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.yupi.springbootinit.controller
+          - com.yupi.lzloj.controller
+
+#沙箱配置
+CodeSandBox:
+  type: remote
