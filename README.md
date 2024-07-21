@@ -3,7 +3,12 @@
 前端基于Vue3实现，由于本人前端水平非常一般，前端代码就不献丑
 后端的主要实现功能包括：管理员发布题目、编辑题目、查询题目、查询题目、查询提交代码等等；普通用户：查询题目、发布题目、查看本人提交
 后端代码沙箱异步判题等。
+核心业务流程：![image](https://github.com/user-attachments/assets/cc898126-b7b0-4948-abef-b4944b79e9c6)
+
 程序流程图：![image](https://github.com/user-attachments/assets/063806a4-2115-4af2-9114-eafff8648e61)
+
+架构设计：![image](https://github.com/user-attachments/assets/49112fb7-609e-4b6b-a86d-dc4d39ffabb3)
+
 
 上线：自己折腾
 上线效果：（这个简单可以截几张图）
