@@ -4,7 +4,98 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acff1f5d-f11d-4ab0-b2a0-d8a80ba103b2" name="Changes" comment="" />
+    <list default="true" id="acff1f5d-f11d-4ab0-b2a0-d8a80ba103b2" name="Changes" comment="系统的健壮性">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75e3e3bd-fcb8-401c-9047-d72737f84ea0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75e3e3bd-fcb8-401c-9047-d72737f84ea0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/create_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/create_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/aop/LogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/aop/LogInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/DeleteRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/PageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/PageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/common/ResultUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/config/CosClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/config/CosClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/config/JsonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/config/JsonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/config/WxOpenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/config/WxOpenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/constant/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/constant/CommonConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/constant/FileConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/constant/FileConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/constant/UserConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/constant/UserConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/PostFavourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/PostFavourController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/PostThumbController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/PostThumbController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/WxMpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/controller/WxMpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/esdao/PostEsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/esdao/PostEsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/exception/ThrowUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/exception/ThrowUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/job/cycle/IncSyncPostToEs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/job/cycle/IncSyncPostToEs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/job/once/FullSyncPostToEs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/job/once/FullSyncPostToEs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/manager/CosManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/manager/CosManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/mapper/PostFavourMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/mapper/PostFavourMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/mapper/PostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/mapper/PostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/mapper/PostThumbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/mapper/PostThumbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/file/UploadFileRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/file/UploadFileRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostEditRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostEditRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostEsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostEsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/post/PostUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/postfavour/PostFavourAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/postfavour/PostFavourAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/postfavour/PostFavourQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/postfavour/PostFavourQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/postthumb/PostThumbAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/postthumb/PostThumbAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserUpdateMyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserUpdateMyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/dto/user/UserUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/entity/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/entity/PostFavour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/entity/PostFavour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/entity/PostThumb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/entity/PostThumb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/enums/FileUploadBizEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/enums/FileUploadBizEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/enums/UserRoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/enums/UserRoleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/vo/LoginUserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/vo/LoginUserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/vo/PostVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/vo/PostVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/model/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/PostFavourService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/PostFavourService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/impl/PostFavourServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/impl/PostFavourServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/impl/PostThumbServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/impl/PostThumbServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/utils/NetUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/utils/NetUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/utils/SpringContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/utils/SpringContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/utils/SqlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/utils/SqlUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/WxMpConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/WxMpConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/WxMpMsgRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/WxMpMsgRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/handler/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/handler/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/handler/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/handler/SubscribeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yupi/lzloj/wxmp/handler/SubscribeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PostFavourMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PostFavourMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PostThumbMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PostThumbMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/esdao/PostEsDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/esdao/PostEsDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/manager/CosManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/manager/CosManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/mapper/PostFavourMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/mapper/PostFavourMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/mapper/PostMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/mapper/PostMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/service/PostFavourServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/service/PostFavourServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/service/PostServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/service/PostServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/service/PostThumbServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/service/PostThumbServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/utils/EasyExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yupi/lzloj/utils/EasyExcelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,35 +141,35 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/code/lzloj-code/src/main/java/com/yupi/lzloj/judge&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.33469805&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;565f342895d363016522efa34154e4e1&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/code/lzloj-code/src/main/java/com/yupi/lzloj/judge",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.33469805",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "spring.configuration.checksum": "565f342895d363016522efa34154e4e1",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\lzloj-code\src\main\java\com\yupi\lzloj\judge" />
@@ -102,7 +193,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainApplication (2)">
+  <component name="RunManager" selected="Spring Boot.MainApplication ">
     <configuration name="MainApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="lzloj-code" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yupi.springbootinit.MainApplication" />
@@ -110,9 +201,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="MainApplication " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="lzloj-code" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yupi.lzloj.MainApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yupi.lzloj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,6 +221,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lzloj-code" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yupi.lzloj.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MainApplication " />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -146,6 +255,25 @@
       <workItem from="1718850782094" duration="1204000" />
       <workItem from="1718853087041" duration="950000" />
       <workItem from="1718855172664" duration="787000" />
+      <workItem from="1718855993489" duration="361000" />
+      <workItem from="1719160722320" duration="27000" />
+      <workItem from="1719277365626" duration="1806000" />
+      <workItem from="1719314538178" duration="514000" />
+      <workItem from="1719388290713" duration="3000" />
+      <workItem from="1719668452858" duration="629000" />
+      <workItem from="1719734597032" duration="39000" />
+      <workItem from="1720611910275" duration="681000" />
+      <workItem from="1721478507693" duration="1307000" />
+      <workItem from="1721531028254" duration="6884000" />
+      <workItem from="1721561438835" duration="2392000" />
+      <workItem from="1721568675522" duration="4000" />
+      <workItem from="1722345909671" duration="102000" />
+      <workItem from="1722478209179" duration="8000" />
+      <workItem from="1723863427548" duration="204000" />
+      <workItem from="1723863649046" duration="1451000" />
+      <workItem from="1723956927140" duration="2000" />
+      <workItem from="1723983587632" duration="4000" />
+      <workItem from="1724641240334" duration="302000" />
     </task>
     <servers />
   </component>
@@ -170,7 +298,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="优化系统不稳定" />
+    <MESSAGE value="系统的健壮性" />
+    <option name="LAST_COMMIT_MESSAGE" value="系统的健壮性" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
